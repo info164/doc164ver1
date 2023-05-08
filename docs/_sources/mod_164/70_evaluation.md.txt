@@ -1,5 +1,5 @@
 # Évaluation de votre module 164
-Dans le but de l'évaluation du module 164, chaque semaine, vous devez déposer votre travail (fichier zip du repository de votre Github) sur le moodle de l'EPSIC
+Dans le but de l'évaluation du module 164, vous devez déposer votre travail (lien du repository de votre Github) sur le moodle de l'EPSIC
 
   - Si vous ne pouvez pas avancer, vous DEVEZ vous entraider (votre groupe DISCORD est là pour cela)
   - Je suis là pour vous aider, mais il faut que vous me posiez des questions, par mail, cela est parfaitement possible

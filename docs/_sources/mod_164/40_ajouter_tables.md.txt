@@ -6,7 +6,7 @@
 * Cliquer dans le répertoire ```APP_FILMS_164/genres```
   * Cliquer sur le fichier ```APP_FILMS_164/genres/gestion_genres_crud.py```
   * Le coller dans le nouveau répertoire ```APP_FILMS_164/mails```
-    * Le nommer gestion_mails_crud.py```
+    * Le nommer ```gestion_mails_crud.py```
     * Accepter de l'ajouter au Git
   * Cliquer sur le fichier ```APP_FILMS_164/genres/gestion_genres_wtf_forms.py```
   * Le coller dans le nouveau répertoire ```APP_FILMS_164/mails```

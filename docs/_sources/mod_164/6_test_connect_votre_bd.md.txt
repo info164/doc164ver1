@@ -5,7 +5,7 @@
     ```SQL
         SELECT id_genre, intitule_genre, date_ins_genre FROM t_genre ORDER BY id_genre ASC
     ``` 
-  * Remplacer "MA" requête par la vôtre
+  * Remplacer "MA" requête ci-dessus par la vôtre
     ```SQL
         SELECT * FROM t_votretabledevotrebd
     ```
