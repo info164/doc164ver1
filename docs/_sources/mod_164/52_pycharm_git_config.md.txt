@@ -1,0 +1,38 @@
+## PyCharm et Git
+
+Git est un système qui peut sauver des heures de travail !
+
+### Faire un repository distant avec PyCharm (Très simple)
+
+* Menu "VCS" -> "Share Project On Github"
+* La première commande est un "Commit"
+  * Il faut sélectionner les fichiers que vous voulez placer sur Github
+    * Si vous n'avez RIEN modifié dans vos fichiers il y a "RIEN" à envoyer
+  * Il est nécessaire de mettre un commentaire qui décrit simplement l'état de votre projet
+  * Cliquer le bouton "Commit" ou "Commit and Push"
+  * Il confirme par un message le succès de cette opération
+
+### Gérer plusieurs comptes Github avec PyCharm
+* Dans un navigateur Internet, se loguer sur votre compte Github
+  * Il faut être connecté sur le compte Github pour le "lier" avec PyCharm
+* Dans PyCharm, CTRL-ALT-S (File->Settings)
+  * Version Control -> GitHub
+  * Vous pouvez enlever ou ajouter un compte, il faut se déconnecter d'un compte pour passer de l'un à l'autre
+* Après, vous pouvez utiliser le Menu "VCS" -> "Share Project On Github" pour créer un nouveau repository sur votre compte Github
+  * Dès que vous cliquer sur le bouton "Share", il va faire un "push" vers votre compte Github
+
+### Problèmes avec Git et Pycharm
+
+  Git est vraiment puissant.
+  * Pour ce module, on l'utilise au minimum de ses possibilités
+  * En cas d'erreur, "MA" solution est brutale...
+    * Quitter PyCharm.
+    * Ouvrir avec l'explorateur Windows le répertoire du projet
+:::{danger}
+:class: myclass1,myclass2
+:name: tip_delete_dir_git
+* Dans le dossier du projet, effacer le répertoire caché ".git"
+* Dans le dossier du projet, effacer le répertoire ".idea"
+:::
+  * Ouvrir le projet avec PyCharm
+  * Il faut redéfinir tous les paramètres de Git vu avant.

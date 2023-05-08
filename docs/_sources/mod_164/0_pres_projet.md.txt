@@ -1,0 +1,8 @@
+# Module 164
+
+Le but de ce module 164 est de faire un CRUD sur les tables d'une BD.
+
+
+
+* Pour télécharger MA démo depuis un repository
+    https://github.com/info164/2023_164_OM_PYTHON_MYSQL_FLASK_V1
