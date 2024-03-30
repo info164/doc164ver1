@@ -1,7 +1,12 @@
 Copier mon projet (29.03.2024)
 ------------------------------
 
+
 Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les coller dans le terminal :
+
+.. DANGER::
+   Avant de "copier-coller" il faut changer la chaîne de caractère "VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024" par des valeurs qui vous correspondent !!!
+
 
 ::
 
