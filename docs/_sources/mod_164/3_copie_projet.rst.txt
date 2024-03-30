@@ -1,0 +1,35 @@
+Copier mon projet (29.03.2024)
+------------------------------
+
+Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les coller dans le terminal :
+
+::
+
+   cd C:\
+   git clone https://github.com/info164/2024_164_om.git VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024
+   cd VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024
+   rmdir /S/Q .git
+   python -m venv .venv
+   cd "C:\VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024\.venv\Scripts"
+   activate
+   cd C:\VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   echo Vos commandes ont été exécutées.
+   REM -- Pause jusqu'à ce qu'une touche soit pressée, puis ferme la fenêtre --
+   pause
+   exit
+
+
+-  Vous devez tester cette copie avant de la modifier.
+
+   - Lire et réaliser les étapes du mode d’emploi de la démonstration
+
+.. DANGER::
+   Il faut changer le numéro du port Flask dans le fichier ".env", ainsi la démo et votre projet sont actifs en même temps.
+   
+   .. image:: PyCharm_env_port_flask.png
+      :width: 300
+      :alt: Changer de port "Flask"
+
+   - Si cette copie de “MA” démonstration fonctionne, alors il faut passer à la suite.

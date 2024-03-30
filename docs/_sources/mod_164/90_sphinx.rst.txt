@@ -1,0 +1,83 @@
+Documentation avec Sphinx
+=========================
+
+Pour les personnes qui sont "curieuses" des systèmes en informatique. Voici un moyen simple de faire de la documentation à l'aide de Sphinx.
+
+Dans un terminal de commande Windows
+::
+
+    pip install sphinx
+    mkdir demo164
+    cd demo164
+    mkdir sphinx_om
+    cd sphinx_om
+    mkdir docs
+    cd docs
+    sphinx-quickstart
+    > Separate source and build directories (y/n) [n]:
+
+    The project name will occur in several places in the built documentation.
+    > Project name: mod164
+    > Author name(s): Olivier Maccaud
+    > Project release []: 0.0.1
+
+    If the documents are to be written in a language other than English,
+    you can select a language here by its language code. Sphinx will then
+    translate text that it generates into that language.
+
+    For a list of supported codes, see
+    https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language.
+    > Project language [en]: fr
+
+    Creating file C:\demo164\sphinx_om\docs\conf.py.
+    Creating file C:\demo164\sphinx_om\docs\index.rst.
+    Creating file C:\demo164\sphinx_om\docs\Makefile.
+    Creating file C:\demo164\sphinx_om\docs\make.bat.
+
+    Finished: An initial directory structure has been created.
+
+    You should now populate your master file C:\demo164\sphinx_om\docs\index.rst and create other documentation
+    source files. Use the Makefile to build the docs, like so:
+    make builder
+    where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
+
+    cd C:\demo164\sphinx_om\docs
+    make html
+
+Pour "compiler" en html
+***********************
+
+::
+
+    make html
+
+Cette commande construit un répertoire "_build"  contenant les fichiers HTML de la documentation. Pour afficher ces fichiers dans votre navigateur. Cliquez deux fois sur index.html
+
+
+::
+
+    cd C:\demo164\sphinx_om\docs\_build\html
+
+
+Pour être certain qu'il n'y a pas d'erreur de syntaxe avec restructuredtext, il faut effacer le contenu de "_build", la commande "make clean" est là pour çà. Après on recompile.
+
+::
+
+    make clean
+    make html
+
+
+Ajouter un thème pour l'html
+****************************
+Les thèmes disponibles :
+
+    .. raw:: html
+
+        <a href="https://sphinx-themes.readthedocs.io/en/latest/#themes" target="_blank">https://sphinx-themes.readthedocs.io/en/latest/#themes</a>
+
+
+
+
+::
+
+   pip install sphinx_rtd_theme

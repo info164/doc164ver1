@@ -1,0 +1,71 @@
+.. mod164 documentation master file, created by
+   sphinx-quickstart on Tue Mar 19 16:01:49 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+MODULE 164
+==========
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Bienvenue
+
+   mod_164/0_pres_projet.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Installation
+   
+   mod_164/1_prerequis.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Mon projet exemple
+
+   mod_164/2_mode_emploi_demo_films.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Votre projet
+
+   mod_164/3_copie_projet.rst
+   mod_164/4_changer_dump_projet.rst
+   mod_164/5_importation_votre_dump.rst
+   mod_164/6_test_connect_votre_bd.rst
+   mod_164/7_run_flask.rst
+   mod_164/10_modifier_requete_afficher_genres.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Modifier votre projet
+
+   mod_164/40_ajouter_tables.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Git et PyCharm
+
+   mod_164/50_pycharm_cde.rst
+   mod_164/51_pycharm_raccourcis.rst
+   mod_164/52_pycharm_git_config.rst
+   mod_164/55_pycharm_problems.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Evaluation du module 164
+
+   mod_164/70_evaluation.rst
+
+.. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Annexes
+
+   mod_164/90_sphinx.rst

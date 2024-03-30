@@ -1,0 +1,14 @@
+PyCharm et les problèmes liés au hasard des configurations
+----------------------------------------------------------
+
+Si vous constatez que vous n’avez pas de répertoire “.venv” (“Environnement virtuel”)
+
+-  Quitter PyCharm.
+
+-  Avec l’explorateur de fichiers Windows, allez dans le répertoire du projet
+
+   Effacer les 3 sous-répertoires suivants (répertoire caché “.git” , “.idea” et “venv”)
+
+   -  Ouvrir “PyCharm”, puis “File”–>“Open…” un projet et choisir le répertoire racine de votre projet. Il doit vous proposer de recréer un “virtual environnement”.
+   -  Vous devez voir un nom de répertoire “.venv” juste derrière le nom de votre répertoire.
+   -  Vous confirmez la création de cet environnement virtuel.

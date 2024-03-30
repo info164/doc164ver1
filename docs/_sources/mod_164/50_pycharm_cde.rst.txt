@@ -1,0 +1,35 @@
+Mise à jour des versions des packages Python
+--------------------------------------------
+
+Dans le terminal de PyCharm
+
+::
+
+   pip install pipupgrade
+
+   pipupgrade --verbose --latest --yes
+
+
+
+-  En cas d’erreurs de packages Python:
+
+      Pour installer tous les packages qui se trouvent dans le fichier "requirements.txt"
+
+      ::
+
+         pip install -r requirements.txt
+
+      Il faut alors mettre à jour “manuellement” (PyCharm:File->Settings->Project->Python interpreter. Double clic sur un package à mettre à jour)
+
+
+
+Avant de faire un "push" de votre projet sur github
+***************************************************
+
+La commande ci-dessous est indispensable. Cela permet de mettre à jour la liste de tous les packages à installer pour que votre projet fonctionne.
+Dans le terminal de PyCharm
+
+::
+
+   pip freeze > requirements.txt
+

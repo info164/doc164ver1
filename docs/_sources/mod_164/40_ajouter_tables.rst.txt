@@ -1,0 +1,54 @@
+Ajouter une table à votre projet
+--------------------------------
+
+Comme exemple je suppose qu'on veut ajouter une table "t_mail"
+
+
+Fichiers .py
+************
+
+- Dans PyCharm, cliquer sur le répertoire ``APP_FILMS_164``
+
+- Bouton droit de la souris et “New-> Directory”, le nommer mails
+
+- Cliquer dans le répertoire ``APP_FILMS_164/genres``
+
+   - Cliquer sur le fichier ``APP_FILMS_164/genres/gestion_genres_crud.py``
+   - Le coller dans le nouveau répertoire ``APP_FILMS_164/mails``
+      - Le nommer ``gestion_mails_crud.py``
+      - Accepter de l’ajouter au Git
+
+   - Cliquer sur le fichier ``APP_FILMS_164/genres/gestion_genres_wtf_forms.py``
+   - Le coller dans le nouveau répertoire ``APP_FILMS_164/mails``
+
+      - Le nommer ``gestion_mails_wtf_forms.py``
+      - Accepter de l’ajouter au Git
+
+Fichiers .html
+**************
+
+- Dans le répertoire ``APP_FILMS_164/templates``
+- Copier le répertoire ``APP_FILMS_164/templates/genres``
+
+- Coller cette copie dans ``APP_FILMS_164/templates/mails``
+   -  On va faire un “refactor” sur chaque fichier
+      -  CLic droit sur chaque fichier et “refactor->Rename”
+      -  ATTENTION: désactiver (les 2 lignes) la recherche de références dans le projet
+
+
+Initialisation des répertoires
+******************************
+
+-  Dans le fichier ``PYTHON APP_FILMS_164/__init__.py`` (ligne 40 et suivantes)
+
+   -  Il faut “déclarer” les chemins (PATH) des fichiers en Python(.py)
+
+   .. code:: python
+
+        from APP_FILMS_164.mails import gestion_mails_crud
+        from APP_FILMS_164.mails import gestion_mails_wtf_forms
+
+Ajouter des menus dans la homepage
+**********************************
+
+- Il faut modifier le fichier ``APP_FILMS_164/templates/base.html``

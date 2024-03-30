@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1. Copier mon projet (29.03.2024) &mdash; Documentation mod164 0.0.2</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=92fd9be5" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=6b2aea0f"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=d99ca74e"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="2. Copie de votre DUMP MySql" href="4_changer_dump_projet.html" />
+    <link rel="prev" title="1. Mode d’emploi de cette démonstration" href="2_mode_emploi_demo_films.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            mod164
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Bienvenue</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0_pres_projet.html">1. Documentation du module 164 (29.03.2024)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Installation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="1_prerequis.html">1. Logiciels pour faire fonctionner ma démo</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Mon projet exemple</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="2_mode_emploi_demo_films.html">1. Mode d’emploi de cette démonstration</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Votre projet</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Copier mon projet (29.03.2024)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_changer_dump_projet.html">2. Copie de votre DUMP MySql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_importation_votre_dump.html">3. Importation de votre DUMP MySql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_test_connect_votre_bd.html">4. Test de la connexion avec votre BD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_run_flask.html">5. Démarrer le microframework FLASK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_modifier_requete_afficher_genres.html">6. Modification d’une requête pour afficher</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Modifier votre projet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="40_ajouter_tables.html">1. Ajouter une table à votre projet</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Git et PyCharm</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="50_pycharm_cde.html">1. Mise à jour des versions des packages Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="51_pycharm_raccourcis.html">2. PyCharm commandes et raccourcis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="52_pycharm_git_config.html">3. PyCharm et Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="55_pycharm_problems.html">4. PyCharm et les problèmes liés au hasard des configurations</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Evaluation du module 164</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="70_evaluation.html">1. Évaluation de votre module 164</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="90_sphinx.html">1. Documentation avec Sphinx</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">mod164</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">1. </span>Copier mon projet (29.03.2024)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/mod_164/3_copie_projet.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copier-mon-projet-29-03-2024">
+<h1><span class="section-number">1. </span>Copier mon projet (29.03.2024)<a class="headerlink" href="#copier-mon-projet-29-03-2024" title="Link to this heading"></a></h1>
+<p>Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les coller dans le terminal :</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">C</span><span class="p">:</span>\
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">info164</span><span class="o">/</span><span class="mi">2024_164</span><span class="n">_om</span><span class="o">.</span><span class="n">git</span> <span class="n">VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024</span>
+<span class="n">cd</span> <span class="n">VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024</span>
+<span class="n">rmdir</span> <span class="o">/</span><span class="n">S</span><span class="o">/</span><span class="n">Q</span> <span class="o">.</span><span class="n">git</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">venv</span> <span class="o">.</span><span class="n">venv</span>
+<span class="n">cd</span> <span class="s2">&quot;C:\VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024\.venv\Scripts&quot;</span>
+<span class="n">activate</span>
+<span class="n">cd</span> <span class="n">C</span><span class="p">:</span>\<span class="n">VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">pip</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">echo</span> <span class="n">Vos</span> <span class="n">commandes</span> <span class="n">ont</span> <span class="n">été</span> <span class="n">exécutées</span><span class="o">.</span>
+<span class="n">REM</span> <span class="o">--</span> <span class="n">Pause</span> <span class="n">jusqu</span><span class="s1">&#39;à ce qu&#39;</span><span class="n">une</span> <span class="n">touche</span> <span class="n">soit</span> <span class="n">pressée</span><span class="p">,</span> <span class="n">puis</span> <span class="n">ferme</span> <span class="n">la</span> <span class="n">fenêtre</span> <span class="o">--</span>
+<span class="n">pause</span>
+<span class="n">exit</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Vous devez tester cette copie avant de la modifier.</p>
+<ul>
+<li><p>Lire et réaliser les étapes du mode d’emploi de la démonstration</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Il faut changer le numéro du port Flask dans le fichier « .env », ainsi la démo et votre projet sont actifs en même temps.</p>
+<a class="reference internal image-reference" href="../_images/PyCharm_env_port_flask.png"><img alt="Changer de port &quot;Flask&quot;" src="../_images/PyCharm_env_port_flask.png" style="width: 300px;" /></a>
+<ul class="simple">
+<li><p>Si cette copie de “MA” démonstration fonctionne, alors il faut passer à la suite.</p></li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="2_mode_emploi_demo_films.html" class="btn btn-neutral float-left" title="1. Mode d’emploi de cette démonstration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="4_changer_dump_projet.html" class="btn btn-neutral float-right" title="2. Copie de votre DUMP MySql" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2024, Olivier Maccaud.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
