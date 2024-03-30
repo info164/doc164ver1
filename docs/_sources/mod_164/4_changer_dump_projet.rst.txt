@@ -2,7 +2,7 @@ Copie de votre DUMP MySql
 --------------------------
 
 .. DANGER::
-   ATTENTION !!! AVANT TOUT FAIRE UNE SAUVEGARDE DE VOTRE DUMP MySql
+   ATTENTION !!! IL FAUT FAIRE UNE SAUVEGARDE DE VOTRE DUMP MySql
 
 
 Il faut faire une sauvegarde du fichier des commandes MySql (DUMP), car le script détruit la BD pour la recréer ensuite.
@@ -41,5 +41,5 @@ Il faut faire une sauvegarde du fichier des commandes MySql (DUMP), car le scrip
    - Cahier des charges en PDF
    - MCD en PDF
    - MLD en PDF
-   - Dictionnaires des données en PDF
+   - Dictionnaire des données en PDF
    - Toutes les requêtes commentées de votre BD en MySql (format du fichier : SQL)
