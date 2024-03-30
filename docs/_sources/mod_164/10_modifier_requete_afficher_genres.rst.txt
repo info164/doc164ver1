@@ -1,5 +1,11 @@
+.. _modif_req_table:
+
 Modification d’une requête pour afficher
 ----------------------------------------
+
+Fichier Python 
+**************
+
 
 - Modifier MES requêtes AFFICHER (READ) du CRUD (Create Read Update Delete) sur la table “t_genre”
 
@@ -12,8 +18,10 @@ Modification d’une requête pour afficher
 
          SELECT * FROM t_votre_table_a_vous
 
-- Modifier dans le répertoire ``APP_FILMS_164/templates`` la page html consacrée à l’affichage pour la table “t_genre”, il faut ouvrir APP_FILMS_164/templates/genres_afficher.html
-   
+Fichier HTML 
+************
+
+   - Ouvrir le fichier ``APP_FILMS_164/templates/genres/genres_afficher.html``   
    - Double clic sur la chaîne de caractères à remplacer
       - Vous devez vous aider de “CTRL-R”(scope : fichier) ou “CTRL-SHIFT-R”(scope : tout le projet)
    - Utiliser la commande “magique” de “PyCharm” comparer deux fichiers “CTRL-D” (menu “View”–>“Compare With…”)

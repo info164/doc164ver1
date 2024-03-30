@@ -1,4 +1,6 @@
-Logiciels pour faire fonctionner ma démo
+.. _installer_logiciel:
+
+Logiciels pour faire fonctionner la démo
 ----------------------------------------
 
 Vérifiez si tout est installé comme ci-dessous

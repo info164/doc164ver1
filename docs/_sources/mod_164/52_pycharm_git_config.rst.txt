@@ -45,7 +45,7 @@ Problèmes avec Git et Pycharm
 Git est vraiment puissant. Pour ce module, on l’utilise au minimum de
 ses possibilités.
 
-.. DANGER::
+.. attention::
    - En cas d’erreur avec "git", voici la solution radicale.
    - Dans PyCharm, clic droit de la souris sur le répertoire racine et "ouvrir dans l'explorateur"
       - Quitter PyCharm

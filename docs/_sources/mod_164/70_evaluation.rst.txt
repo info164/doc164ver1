@@ -1,3 +1,5 @@
+.. _eval_projet:
+
 Évaluation de votre module 164
 ------------------------------
 
@@ -18,7 +20,10 @@ travail (lien du repository de votre Github) sur le moodle de l’EPSIC
 -  Réaliser un “PUSH” dans votre “GITHUB” privé, n’oubliez pas de m’inviter avec mon adresse officielle (déjà donnée)
 
 
-.. DANGER::
+Fichiers pour l'évaluation du module 164
+****************************************
+
+.. attention::
 
    Dans votre github. Créer un fichier “zip” à télécharger sur votre disque local vous DEVEZ le déposer sur Moodle de l’EPSIC dans la semaine correspondante
 
@@ -31,11 +36,14 @@ travail (lien du repository de votre Github) sur le moodle de l’EPSIC
    - Cahier des charges en PDF
    - MCD en PDF
    - MLD en PDF
-   - Dictionnaires des données en PDF
-   - Toutes les requêtes commentées de votre BD en MySql (format du fichier : SQL)
+   - Dictionnaire des données en PDF
+   - Toutes les requêtes commentées de votre projet en MySql (format du fichier : SQL)
+
+   - DUMP de votre BD
+      il faut que je puisse utiliser le script ``APP_FILMS_164/database/1_ImportationDumpSql.py`` pour importer votre BD de façon "automatisée"
 
 
+.. important::
 
-
-Important Il faut respecter mes consignes énoncées ci-dessus, sinon, vous ne pourrez plus prétendre à l’excellence, soit la note de “6”
+   Il faut respecter mes consignes énoncées ci-dessus, sinon, vous ne pourrez plus prétendre à l’excellence, soit la note de “6”
 

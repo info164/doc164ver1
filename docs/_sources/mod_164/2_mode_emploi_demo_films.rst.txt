@@ -1,7 +1,9 @@
-Mode d’emploi de cette démonstration
-------------------------------------
+.. _demo_om:
 
-Télécharger ma démo "films" (29.03.2024)
+Mode d’emploi de la démonstration "Films"
+-----------------------------------------
+
+Télécharger la démo "films" (29.03.2024)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Une démonstration sur 3 tables dont une (n à n) est disponible sur Github voir ci-dessous.
@@ -33,7 +35,7 @@ Vous pouvez maintenant ouvrir PyCharm et Menu "File"--> "Open project", observez
   :alt: PyCharm ouvrir un projet
 
 
-Démarrer ma démo "films" (29.03.2024)
+Démarrer la démo "films" (29.03.2024)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

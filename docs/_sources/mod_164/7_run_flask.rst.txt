@@ -3,7 +3,7 @@ Démarrer le microframework FLASK
 
 - Dans le répertoire racine de votre projet, ouvrir votre fichier “.env”
 
-   - Changer le numéro du port pour le serveur FLASK. Ainsi, vous pourrez avoir MA démo fonctionnelle simultanément avec votre projet.
+   - Changer le numéro du port pour le serveur FLASK (:ref:`img_PyCharm_env_port_flask`). Ainsi, vous pourrez avoir la démo "films" fonctionnelle simultanément avec votre projet.
 
    ::
 

@@ -23,7 +23,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
     <link rel="next" title="3. Importation de votre DUMP MySql" href="5_importation_votre_dump.html" />
-    <link rel="prev" title="1. Copier mon projet (29.03.2024)" href="3_copie_projet.html" /> 
+    <link rel="prev" title="1. Copier mon projet « Films » (29.03.2024)" href="3_copie_projet.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -51,16 +51,19 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Installation</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="1_prerequis.html">1. Logiciels pour faire fonctionner ma démo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1_prerequis.html">1. Logiciels pour faire fonctionner la démo</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Mon projet exemple</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="2_mode_emploi_demo_films.html">1. Mode d’emploi de cette démonstration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_mode_emploi_demo_films.html">1. Mode d’emploi de la démonstration « Films »</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Votre projet</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="3_copie_projet.html">1. Copier mon projet (29.03.2024)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Copie de votre DUMP MySql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_copie_projet.html">1. Copier mon projet « Films » (29.03.2024)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Copie de votre DUMP MySql</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#modifier-le-fichier-env-des-parametres">2.1. Modifier le fichier « .env » des paramètres</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="5_importation_votre_dump.html">3. Importation de votre DUMP MySql</a></li>
 <li class="toctree-l1"><a class="reference internal" href="6_test_connect_votre_bd.html">4. Test de la connexion avec votre BD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="7_run_flask.html">5. Démarrer le microframework FLASK</a></li>
@@ -112,8 +115,8 @@
              
   <section id="copie-de-votre-dump-mysql">
 <h1><span class="section-number">2. </span>Copie de votre DUMP MySql<a class="headerlink" href="#copie-de-votre-dump-mysql" title="Link to this heading"></a></h1>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
 <p>ATTENTION !!! IL FAUT FAIRE UNE SAUVEGARDE DE VOTRE DUMP MySql</p>
 </div>
 <dl class="simple">
@@ -136,12 +139,16 @@
 <span class="n">USE</span><span class="w"> </span><span class="n">VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024</span><span class="p">;</span>
 </pre></div>
 </div>
-<ul>
-<li><p>Renommer ce fichier MySql (clic droit sur l’onglet) et tout en bas “Rename File…”</p>
 <ul class="simple">
+<li><p>Renommer ce fichier MySql (clic droit sur l’onglet) et tout en bas “Rename File…”</p>
+<ul>
 <li><p>Ce fichier “DUMP” doit se nommer “VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024.SQL”</p></li>
 </ul>
 </li>
+</ul>
+<section id="modifier-le-fichier-env-des-parametres">
+<span id="fichier-env"></span><h2><span class="section-number">2.1. </span>Modifier le fichier « .env » des paramètres<a class="headerlink" href="#modifier-le-fichier-env-des-parametres" title="Link to this heading"></a></h2>
+<ul>
 <li><p>Ouvrir le fichier <code class="docutils literal notranslate"><span class="pre">.env</span></code> (racine de votre répertoire)</p>
 <ul class="simple">
 <li><p>Changer les deux noms de variables comme ci-dessous</p></li>
@@ -151,23 +158,15 @@
 </pre></div>
 </div>
 </li>
-<li><p>Dans le répertoire <code class="docutils literal notranslate"><span class="pre">APP_FILMS_164/database</span></code> vous devez placer vos fichiers pour l’évaluation du module 164</p>
-<ul class="simple">
-<li><p>Cahier des charges en PDF</p></li>
-<li><p>MCD en PDF</p></li>
-<li><p>MLD en PDF</p></li>
-<li><p>Dictionnaire des données en PDF</p></li>
-<li><p>Toutes les requêtes commentées de votre BD en MySql (format du fichier : SQL)</p></li>
 </ul>
-</li>
-</ul>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
-        <a href="3_copie_projet.html" class="btn btn-neutral float-left" title="1. Copier mon projet (29.03.2024)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="3_copie_projet.html" class="btn btn-neutral float-left" title="1. Copier mon projet « Films » (29.03.2024)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
         <a href="5_importation_votre_dump.html" class="btn btn-neutral float-right" title="3. Importation de votre DUMP MySql" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

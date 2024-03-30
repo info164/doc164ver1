@@ -1,7 +1,7 @@
 Copie de votre DUMP MySql
 --------------------------
 
-.. DANGER::
+.. attention::
    ATTENTION !!! IL FAUT FAIRE UNE SAUVEGARDE DE VOTRE DUMP MySql
 
 
@@ -27,6 +27,11 @@ Il faut faire une sauvegarde du fichier des commandes MySql (DUMP), car le scrip
 
    -  Ce fichier “DUMP” doit se nommer “VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024.SQL”
 
+.. _fichier_env:
+
+Modifier le fichier ".env" des paramètres
+*****************************************
+
 -  Ouvrir le fichier ``.env`` (racine de votre répertoire)
 
    -  Changer les deux noms de variables comme ci-dessous
@@ -35,11 +40,3 @@ Il faut faire une sauvegarde du fichier des commandes MySql (DUMP), car le scrip
 
       NAME_BD_MYSQL="VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024"
       NAME_FILE_DUMP_SQL_BD="../database/VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024.SQL"
-
--  Dans le répertoire ``APP_FILMS_164/database`` vous devez placer vos fichiers pour l'évaluation du module 164
-
-   - Cahier des charges en PDF
-   - MCD en PDF
-   - MLD en PDF
-   - Dictionnaire des données en PDF
-   - Toutes les requêtes commentées de votre BD en MySql (format du fichier : SQL)

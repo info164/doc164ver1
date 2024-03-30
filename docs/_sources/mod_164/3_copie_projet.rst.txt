@@ -1,13 +1,16 @@
-Copier mon projet (29.03.2024)
-------------------------------
+.. _copier_mon_projet:
+
+Copier mon projet "Films" (29.03.2024)
+--------------------------------------
 
 
 Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les coller dans le terminal :
 
-.. DANGER::
-   Avant de "copier-coller" il faut changer la chaîne de caractère
+.. attention::
+   Avant de "copier-coller" il faut changer la chaîne de caractères
    "VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024"
    par des valeurs qui vous correspondent !!!
+   Après ce ne sera plus possible !!!
 
 
 ::
@@ -32,11 +35,19 @@ Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les 
 
    - Lire et réaliser les étapes du mode d’emploi de la démonstration
 
-.. DANGER::
-   Il faut changer le numéro du port Flask dans le fichier ".env", ainsi la démo et votre projet sont actifs en même temps.
+.. attention::
+   Il faut changer le numéro du port Flask dans le fichier ".env", ainsi la démo et votre projet sont actifs en même temps, car les numéros des ports sont différents.
    
    .. image:: PyCharm_env_port_flask.png
       :width: 300
       :alt: Changer de port "Flask"
 
    - Si cette copie de “MA” démonstration fonctionne, alors il faut passer à la suite.
+
+.. _img_PyCharm_env_port_flask:
+
+
+.. image:: PyCharm_env_port_flask.png
+   :width: 100
+   :alt: Changer de port "Flask"
+

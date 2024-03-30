@@ -51,20 +51,24 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Installation</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="1_prerequis.html">1. Logiciels pour faire fonctionner ma démo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1_prerequis.html">1. Logiciels pour faire fonctionner la démo</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Mon projet exemple</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="2_mode_emploi_demo_films.html">1. Mode d’emploi de cette démonstration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_mode_emploi_demo_films.html">1. Mode d’emploi de la démonstration « Films »</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Votre projet</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="3_copie_projet.html">1. Copier mon projet (29.03.2024)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_copie_projet.html">1. Copier mon projet « Films » (29.03.2024)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="4_changer_dump_projet.html">2. Copie de votre DUMP MySql</a></li>
 <li class="toctree-l1"><a class="reference internal" href="5_importation_votre_dump.html">3. Importation de votre DUMP MySql</a></li>
 <li class="toctree-l1"><a class="reference internal" href="6_test_connect_votre_bd.html">4. Test de la connexion avec votre BD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="7_run_flask.html">5. Démarrer le microframework FLASK</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Modification d’une requête pour afficher</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Modification d’une requête pour afficher</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fichier-python">6.1. Fichier Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fichier-html">6.2. Fichier HTML</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Modifier votre projet</span></p>
 <ul>
@@ -111,7 +115,9 @@
            <div itemprop="articleBody">
              
   <section id="modification-dune-requete-pour-afficher">
-<h1><span class="section-number">6. </span>Modification d’une requête pour afficher<a class="headerlink" href="#modification-dune-requete-pour-afficher" title="Link to this heading"></a></h1>
+<span id="modif-req-table"></span><h1><span class="section-number">6. </span>Modification d’une requête pour afficher<a class="headerlink" href="#modification-dune-requete-pour-afficher" title="Link to this heading"></a></h1>
+<section id="fichier-python">
+<h2><span class="section-number">6.1. </span>Fichier Python<a class="headerlink" href="#fichier-python" title="Link to this heading"></a></h2>
 <ul>
 <li><p>Modifier MES requêtes AFFICHER (READ) du CRUD (Create Read Update Delete) sur la table “t_genre”</p>
 <blockquote>
@@ -130,9 +136,13 @@
 </ul>
 </div></blockquote>
 </li>
-<li><p>Modifier dans le répertoire <code class="docutils literal notranslate"><span class="pre">APP_FILMS_164/templates</span></code> la page html consacrée à l’affichage pour la table “t_genre”, il faut ouvrir APP_FILMS_164/templates/genres_afficher.html</p>
+</ul>
+</section>
+<section id="fichier-html">
+<h2><span class="section-number">6.2. </span>Fichier HTML<a class="headerlink" href="#fichier-html" title="Link to this heading"></a></h2>
 <blockquote>
 <div><ul class="simple">
+<li><p>Ouvrir le fichier <code class="docutils literal notranslate"><span class="pre">APP_FILMS_164/templates/genres/genres_afficher.html</span></code></p></li>
 <li><dl class="simple">
 <dt>Double clic sur la chaîne de caractères à remplacer</dt><dd><ul>
 <li><p>Vous devez vous aider de “CTRL-R”(scope : fichier) ou “CTRL-SHIFT-R”(scope : tout le projet)</p></li>
@@ -149,8 +159,7 @@
 </li>
 </ul>
 </div></blockquote>
-</li>
-</ul>
+</section>
 </section>
 
 

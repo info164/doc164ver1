@@ -17,13 +17,13 @@ Le but de ce module 164 est de faire un CRUD (Create Read Update Delete) sur les
 Votre travail
 ~~~~~~~~~~~~~
 
-- Installer tous les programmes nécessaires
-- Faire fonctionner ma démonstration "films"
-- Faire une copie de ma démonstration
-- Importer votre base de données (DUMP) dans votre copie 
-- Connecter votre BD avec vos paramètres du fichier ".env"
-- Dans le fichier "gestion_genres_crud.py"(Ligne 37,46,50) sur "t_genre" par votre requête
+- Installer tous les programmes nécessaires (:ref:`installer_logiciel`)
+- Faire fonctionner la démonstration "Films" (:ref:`demo_om`)
+- Faire une copie de la démonstration (:ref:`copier_mon_projet`)
+- Importer votre base de données (DUMP) dans votre copie (:ref:`importer_bd`)
+- Connecter votre BD avec vos paramètres du fichier ".env" (:ref:`fichier_env`)
+- Dans le fichier "gestion_genres_crud.py"(Ligne 37,46,50) sur "t_genre", il faut utiliser vos requêtes de votre table (:ref:`modif_req_table`)
 - Modifier la page html "genres_afficher.html"(Lignes 37,40,43) pour qu'elle affiche les champs de votre BD
-
+- Lire le chapitre :ref:`eval_projet`
 
 
