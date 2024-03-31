@@ -47,3 +47,6 @@ Fichiers pour l'évaluation du module 164
 
    Il faut respecter mes consignes énoncées ci-dessus, sinon, vous ne pourrez plus prétendre à l’excellence, soit la note de “6”
 
+.. hint::
+
+   Bon travail à vous !
