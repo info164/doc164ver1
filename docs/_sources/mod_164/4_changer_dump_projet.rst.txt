@@ -40,3 +40,16 @@ Modifier le fichier ".env" des paramètres
 
       NAME_BD_MYSQL="VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024"
       NAME_FILE_DUMP_SQL_BD="../database/VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024.SQL"
+
+.. _importer_bd:
+
+Importation de votre DUMP MySql
+*******************************
+
+-  Il faut utiliser le script Python pour transférer votre BD
+
+   -  Ouvrir le fichier ``APP_FILMS_164/database/1_ImportationDumpSql.py``
+   -  Cliquer avec le bouton droit sur l’onglet de ce fichier et choisir “run” (CTRL-MAJ-F10)
+   -  En cas d’erreurs (:ref:`fichier_env`): ouvrir le fichier ``.env`` à la racine du projet, contrôler les indications de connexion pour la BD.
+
+-  Voir dans votre serveur MySql si la BD est correctement importée.

@@ -23,7 +23,7 @@ Votre travail
 - Importer votre base de données (DUMP) dans votre copie (:ref:`importer_bd`)
 - Connecter votre BD avec vos paramètres du fichier ".env" (:ref:`fichier_env`)
 - Dans le fichier "gestion_genres_crud.py"(Ligne 37,46,50) sur "t_genre", il faut utiliser vos requêtes de votre table (:ref:`modif_req_table`)
-- Modifier la page html "genres_afficher.html"(Lignes 37,40,43) pour qu'elle affiche les champs de votre BD
+- Modifier la page html "genres_afficher.html"(Lignes 37,40,43) pour qu'elle affiche les champs de votre BD (:ref:`modif_req_table_html`)
 - Lire le chapitre :ref:`eval_projet`
 
 

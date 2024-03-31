@@ -9,7 +9,7 @@ Télécharger la démo "films" (29.03.2024)
 Une démonstration sur 3 tables dont une (n à n) est disponible sur Github voir ci-dessous.
 Tout doit être installé en LOCAL
 
-Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les coller dans le terminal :
+Dans un terminal de commande windows, copier toutes les lignes ci-dessous et les coller dans le terminal :
 
 ::
 
@@ -30,10 +30,12 @@ Dans un terminal de commande windows copiez toutes les lignes ci-dessous et les 
 
 Vous pouvez maintenant ouvrir PyCharm et Menu "File"--> "Open project", observez la structure des fichiers en dessous du répertoire "164_films_om" il faut que le répertoire ".venv" soit présent.
 
-.. image:: PyCharm_open_project.png
-  :width: 300
-  :alt: PyCharm ouvrir un projet
 
+.. figure:: PyCharm_open_project.png
+   :width: 300
+   :alt: PyCharm ouvrir un projet
+
+   Ouvrir un projet avec PyCharm
 
 Démarrer la démo "films" (29.03.2024)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,9 +59,11 @@ Démarrer la démo "films" (29.03.2024)
    -  Cliquer avec le bouton droit sur l’onglet de ce fichier et choisir
       “run” (CTRL-MAJ-F10)
 
-.. image:: PyCharm_scripts_1_2.png
-  :width: 300
-  :alt: Démarrer scripts 1 et 2
+.. figure:: PyCharm_scripts_1_2.png
+   :width: 300
+   :alt: Démarrer scripts 1 et 2
+
+   Scripts (BD) Import et test
 
 -  Démarrer le microframework FLASK
 
@@ -68,8 +72,9 @@ Démarrer la démo "films" (29.03.2024)
    -  Cliquer avec le bouton droit sur l’onglet de ce fichier et choisir
       “run” (CTRL-MAJ-F10)
 
-.. image:: PyCharm_scripts_3.png
-  :width: 300
-  :alt: Démarrer script 3
+.. figure:: PyCharm_scripts_3.png
+   :width: 300
+   :alt: Démarrer script 3
 
+   Démarrage de l'application
 

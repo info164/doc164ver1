@@ -1,7 +1,7 @@
-.. _modif_req_table:
-
 Modification d’une requête pour afficher
 ----------------------------------------
+
+.. _modif_req_table:
 
 Fichier Python 
 **************
@@ -17,6 +17,8 @@ Fichier Python
       .. code:: sql
 
          SELECT * FROM t_votre_table_a_vous
+
+.. _modif_req_table_html:
 
 Fichier HTML 
 ************

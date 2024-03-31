@@ -34,7 +34,6 @@ MODULE 164
 
    mod_164/3_copie_projet.rst
    mod_164/4_changer_dump_projet.rst
-   mod_164/5_importation_votre_dump.rst
    mod_164/6_test_connect_votre_bd.rst
    mod_164/7_run_flask.rst
    mod_164/10_modifier_requete_afficher_genres.rst

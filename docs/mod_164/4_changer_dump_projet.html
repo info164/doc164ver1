@@ -22,7 +22,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="3. Importation de votre DUMP MySql" href="5_importation_votre_dump.html" />
+    <link rel="next" title="3. Test de la connexion avec votre BD" href="6_test_connect_votre_bd.html" />
     <link rel="prev" title="1. Copier mon projet « Films » (29.03.2024)" href="3_copie_projet.html" /> 
 </head>
 
@@ -62,12 +62,12 @@
 <li class="toctree-l1"><a class="reference internal" href="3_copie_projet.html">1. Copier mon projet « Films » (29.03.2024)</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">2. Copie de votre DUMP MySql</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#modifier-le-fichier-env-des-parametres">2.1. Modifier le fichier « .env » des paramètres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#importation-de-votre-dump-mysql">2.2. Importation de votre DUMP MySql</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="5_importation_votre_dump.html">3. Importation de votre DUMP MySql</a></li>
-<li class="toctree-l1"><a class="reference internal" href="6_test_connect_votre_bd.html">4. Test de la connexion avec votre BD</a></li>
-<li class="toctree-l1"><a class="reference internal" href="7_run_flask.html">5. Démarrer le microframework FLASK</a></li>
-<li class="toctree-l1"><a class="reference internal" href="10_modifier_requete_afficher_genres.html">6. Modification d’une requête pour afficher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_test_connect_votre_bd.html">3. Test de la connexion avec votre BD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_run_flask.html">4. Démarrer le microframework FLASK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_modifier_requete_afficher_genres.html">5. Modification d’une requête pour afficher</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Modifier votre projet</span></p>
 <ul>
@@ -160,6 +160,19 @@
 </li>
 </ul>
 </section>
+<section id="importation-de-votre-dump-mysql">
+<span id="importer-bd"></span><h2><span class="section-number">2.2. </span>Importation de votre DUMP MySql<a class="headerlink" href="#importation-de-votre-dump-mysql" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Il faut utiliser le script Python pour transférer votre BD</p>
+<ul>
+<li><p>Ouvrir le fichier <code class="docutils literal notranslate"><span class="pre">APP_FILMS_164/database/1_ImportationDumpSql.py</span></code></p></li>
+<li><p>Cliquer avec le bouton droit sur l’onglet de ce fichier et choisir “run” (CTRL-MAJ-F10)</p></li>
+<li><p>En cas d’erreurs (<a class="reference internal" href="#fichier-env"><span class="std std-ref">Modifier le fichier « .env » des paramètres</span></a>): ouvrir le fichier <code class="docutils literal notranslate"><span class="pre">.env</span></code> à la racine du projet, contrôler les indications de connexion pour la BD.</p></li>
+</ul>
+</li>
+<li><p>Voir dans votre serveur MySql si la BD est correctement importée.</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -167,7 +180,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
         <a href="3_copie_projet.html" class="btn btn-neutral float-left" title="1. Copier mon projet « Films » (29.03.2024)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="5_importation_votre_dump.html" class="btn btn-neutral float-right" title="3. Importation de votre DUMP MySql" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="6_test_connect_votre_bd.html" class="btn btn-neutral float-right" title="3. Test de la connexion avec votre BD" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
