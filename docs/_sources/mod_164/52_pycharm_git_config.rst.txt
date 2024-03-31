@@ -40,7 +40,7 @@ Gérer plusieurs comptes Github avec PyCharm
 
    -  Version Control -> GitHub
    -  Vous pouvez enlever ou ajouter un compte, il faut se déconnecter d’un compte pour passer de l’un à l’autre
-   -  Après, vous pouvez utiliser le Menu “VCS” -> “Share Project On Github” pour créer un nouveau repository sur votre compte Github
+   -  Après, vous pouvez utiliser le Menu “Version control” -> “Share Project On Github” pour créer un nouveau repository sur votre compte Github
    -  Dès que vous cliquez sur le bouton “Share”, il va faire un “push” vers votre compte Github
 
 

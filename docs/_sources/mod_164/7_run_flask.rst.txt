@@ -7,7 +7,7 @@ Démarrer le microframework FLASK
 
    ::
 
-      PORT_FLASK=5575
+      PORT_FLASK=5000
 
 - Dans le répertoire racine de votre projet, ouvrir le fichier “run_mon_app.py”
 
@@ -16,4 +16,4 @@ Démarrer le microframework FLASK
 
    ::
 
-      Running on http://127.0.0.1:5575
+      Running on http://127.0.0.1:5000
