@@ -30,10 +30,15 @@ Dans un terminal de commande windows, copier toutes les lignes ci-dessous et les
    pause
    exit
 
+Tester votre copie de la démo "film"
+************************************
 
 -  Vous devez tester cette copie avant de la modifier.
 
-   - Lire et réaliser les étapes du mode d’emploi de la démonstration
+   - Lire et réaliser les étapes du mode d’emploi de la démonstration (:ref:`open_project_pycharm`)
+
+Changer le numéro du port du serveur FLASK
+******************************************
 
 .. attention::
    Il faut changer le numéro du port Flask dans le fichier ".env", ainsi la démo et votre projet sont actifs en même temps, car les numéros des ports sont différents.

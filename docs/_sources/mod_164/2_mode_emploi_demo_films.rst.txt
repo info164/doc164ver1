@@ -28,6 +28,12 @@ Dans un terminal de commande windows, copier toutes les lignes ci-dessous et les
    pause
    exit
 
+
+.. _open_project_pycharm:
+
+Ouvrir le projet avec PyCharm
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Vous pouvez maintenant ouvrir PyCharm et Menu "File"--> "Open project", observez la structure des fichiers en dessous du répertoire "164_films_om" il faut que le répertoire ".venv" soit présent.
 
 

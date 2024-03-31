@@ -7,12 +7,18 @@ Git est un système qui peut sauver des heures de travail !
 
 
 
-Faire un repository distant avec PyCharm (Très simple)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Créer un repository sur Github avec PyCharm
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+-  Menu “Version control” -> “Share Project On Github”
 
--  Menu “VCS” -> “Share Project On Github”
+.. figure:: PyCharm_VCS.png
+   :width: 300
+   :alt: Votre projet sur Github
+
+   Envoyer votre projet sur Github
+
 
 -  La première commande est un “Commit”
 
