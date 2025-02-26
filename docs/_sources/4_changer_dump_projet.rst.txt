@@ -1,0 +1,53 @@
+Copie de votre DUMP MySql
+--------------------------
+
+.. attention::
+   ATTENTION !!! IL FAUT FAIRE UNE SAUVEGARDE DE VOTRE DUMP MySql
+
+
+Il faut faire une sauvegarde du fichier des commandes MySql (DUMP), car le script détruit la BD pour la recréer ensuite.
+   - Ouvrir à l’aide d’un éditeur VOTRE fichier DUMP MySql.
+   - Copier tout votre code MySql (CTRL-A CTRL-C)
+   - Ouvrir mon fichier DUMP MySql ``APP_FILMS_164/database/MACCAUD_OLIVIER_INFO1X_FILMS_164_2024.SQL``
+   - Contrôle : Il doit y avoir les 3 instructions MySql ci-dessous tout au début du fichier :
+
+.. code:: sql
+
+     -- Destruction de la BD si elle existe. 
+     -- Pour être certain d'avoir la dernière version des données      
+     DROP DATABASE IF EXISTS VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024;
+     -- Création d'une nouvelle base de données
+     CREATE DATABASE IF NOT EXISTS VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024;
+     -- Utilisation de cette base de données
+     USE VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024;
+
+-  Renommer ce fichier MySql (clic droit sur l’onglet) et tout en bas “Rename File…”
+
+   -  Ce fichier “DUMP” doit se nommer “VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024.SQL”
+
+.. _fichier_env:
+
+Modifier le fichier ".env" des paramètres
+*****************************************
+
+-  Ouvrir le fichier ``.env`` (racine de votre répertoire)
+
+   -  Changer les deux noms de variables comme ci-dessous
+
+   .. code:: sql
+
+      NAME_BD_MYSQL="VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024"
+      NAME_FILE_DUMP_SQL_BD="../database/VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024.SQL"
+
+.. _importer_bd:
+
+Importation de votre DUMP MySql
+*******************************
+
+-  Il faut utiliser le script Python pour transférer votre BD
+
+   -  Ouvrir le fichier ``APP_FILMS_164/database/1_ImportationDumpSql.py``
+   -  Cliquer avec le bouton droit sur l’onglet de ce fichier et choisir “run” (CTRL-MAJ-F10)
+   -  En cas d’erreurs (:ref:`fichier_env`): ouvrir le fichier ``.env`` à la racine du projet, contrôler les indications de connexion pour la BD.
+
+-  Voir dans votre serveur MySql si la BD est correctement importée.

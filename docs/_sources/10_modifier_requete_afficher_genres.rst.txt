@@ -1,0 +1,31 @@
+Modification d’une requête pour afficher
+----------------------------------------
+
+.. _modif_req_table:
+
+Fichier Python 
+**************
+
+
+- Modifier MES requêtes AFFICHER (READ) du CRUD (Create Read Update Delete) sur la table “t_genre”
+
+   - Ouvrir le fichier ``APP_FILMS_164/genres/gestion_genres_crud.py``
+   - Modifier les requêtes “SELECT” sur la table “t_genre” par des “SELECT” sur une de vos “t_votre_table_a_vous”
+
+      -  Faites d’abord un
+
+      .. code:: sql
+
+         SELECT * FROM t_votre_table_a_vous
+
+.. _modif_req_table_html:
+
+Fichier HTML 
+************
+
+   - Ouvrir le fichier ``APP_FILMS_164/templates/genres/genres_afficher.html``   
+   - Double clic sur la chaîne de caractères à remplacer
+      - Vous devez vous aider de “CTRL-R”(scope : fichier) ou “CTRL-SHIFT-R”(scope : tout le projet)
+   - Utiliser la commande “magique” de “PyCharm” comparer deux fichiers “CTRL-D” (menu “View”–>“Compare With…”)
+      - entre le fichier de mon projet qui fonctionne et le vôtre  qui est presque fonctionnel
+   

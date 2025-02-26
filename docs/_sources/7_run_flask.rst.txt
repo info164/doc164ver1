@@ -1,0 +1,19 @@
+Démarrer le microframework FLASK
+--------------------------------
+
+- Dans le répertoire racine de votre projet, ouvrir votre fichier “.env”
+
+   - Changer le numéro du port pour le serveur FLASK (Voir :numref:`chgt_port_flask`). Ainsi, vous pourrez avoir la démo "films" fonctionnelle simultanément avec votre projet.
+
+   ::
+
+      PORT_FLASK=5000
+
+- Dans le répertoire racine de votre projet, ouvrir le fichier “run_mon_app.py”
+
+   - Cliquer avec le bouton droit sur l’onglet de votre fichier et choisir “run” (CTRL-MAJ-F10)
+   - Dans la console du “run” il doit y avoir un lien à cliquer de cette forme :
+
+   ::
+
+      Running on http://127.0.0.1:5000

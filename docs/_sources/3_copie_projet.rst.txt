@@ -1,0 +1,56 @@
+.. _copier_mon_projet:
+
+Copier mon projet "Films" (29.03.2024)
+--------------------------------------
+
+
+Dans un terminal de commande windows, copier toutes les lignes ci-dessous et les coller dans le terminal :
+
+.. attention::
+   Avant de "copier-coller" il faut changer la chaîne de caractères
+   "VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024"
+   par des valeurs qui vous correspondent !!!
+   Après ce ne sera plus possible !!!
+
+
+::
+
+   cd C:\
+   git clone https://github.com/info164/2024_164_om.git VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024
+   cd VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024
+   rmdir /S/Q .git
+   python -m venv .venv
+   cd "C:\VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024\.venv\Scripts"
+   activate
+   cd C:\VOTRENOM_VOTREPRENOM_VOTRECLASSE_VOTRESUJET_164_2024
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   echo Vos commandes ont été exécutées.
+   REM -- Pause jusqu'à ce qu'une touche soit pressée, puis ferme la fenêtre --
+   pause
+   exit
+
+Tester votre copie de la démo "film"
+************************************
+
+-  Vous devez tester cette copie avant de la modifier.
+
+   - Lire et réaliser les étapes du mode d’emploi de la démonstration (:ref:`open_project_pycharm`)
+
+Changer le numéro du port du serveur FLASK
+******************************************
+
+.. attention::
+   Il faut changer le numéro du port Flask dans le fichier ".env", ainsi la démo et votre projet sont actifs en même temps, car les numéros des ports sont différents.
+   
+   .. _chgt_port_flask:
+
+   .. figure:: PyCharm_env_port_flask.png
+      :width: 300
+      :alt: Changer de port "Flask"
+
+      Changer de port "Flask"
+
+   - Si cette copie de “MA” démonstration fonctionne, alors il faut passer à la suite.
+
+
